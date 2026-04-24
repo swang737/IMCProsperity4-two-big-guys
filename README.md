@@ -14,7 +14,7 @@ The backtester we used was taken from the open-source channel on the discord. It
 ### Visualiser
 This was probably the most important tool of earlier rounds and the one taking the most time to develop. This is because visualising what is actually happening in the order books is crucial to find *hidden alpha*. *Hidden alpha* is the term I colloquially used to call any sources of PnL that was not attainable by optimising or improving an algorithm, but rather by noticing odd behaviour in the order book.
 
-![Our Visualiser](images\visualiser.png)
+![Our Visualiser](images/visualiser.png)
 *Our Visualiser was probably what helped the most for finding hidden alpha*
 
 Quotes were colored brighter if they had more volume and darker if they had less volume. We later realised that the quotes were from several distinct market participants. We named them *Large Makers*, *Small Makers*, *Trader 1s* and *Trader 2s*. We knew that different participant groups could later prove to be important from historical Prosperity repositories.
